@@ -13,6 +13,8 @@ export function Header() {
 
             <p>O melhor para você ouvir, sempre</p>
 
+            <img className={styles.pod} src="/pod.svg" alt="Imagem"/>
+
             <span>{currentDate}</span>
         </header>
     );
